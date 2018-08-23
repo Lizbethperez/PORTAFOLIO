@@ -23,10 +23,6 @@ body{
     opacity: 0.7; 
 }
 
-.fa, .fab, .fal, .far, .fas {
-    font-size: 40px;
-    color:#fc8692;
-}
 nav-pills .nav-link.active, .nav-pills .show>.nav-link:hover{
     color:purple;
 }
@@ -35,11 +31,93 @@ nav-pills .nav-link.active, .nav-pills .show>.nav-link:hover{
     background-color: transparent;
     opacity: 1;
 }
-.alingIcons{
-    padding:1em;
-    margin-top:3em;
+.format-name{
+    font-family: 'Diplomata', cursive;
+    color:#fc8692;;
 }
-/*.nav-link{
-    padding:2.5rem 1rem;
-    margin-left: 1.5rem;
-}*/
+.format-front{
+    font-family: 'Fascinate Inline', cursive;
+    color:white;
+}
+.format-img-about{
+    height: 25vh;
+   }
+   .fotmat-p-AboutMe{
+       font-size: 25px;
+       color:white;
+   }
+   .format-aboutMe{
+      background-color: #1a1a1a;
+      border:2px #fc8692 solid;
+      opacity: 0.7;
+   }
+
+
+@media (min-width: 768px) {
+
+    .alingIcons{
+        padding:1em;
+        margin-top:1em;
+        margin-left: 1.5em;
+    }
+    .formatSpan{
+        padding-left: 1.5em;
+        font-size: 17px;
+        font-family: 'Fascinate Inline', cursive;
+        font-weight: bolder;
+        color:white;
+    }
+    
+    .fa, .fab, .fal, .far, .fas {
+        font-size: 30px;
+        color:#fc8692;
+    }
+    .fa-female{
+        margin-left: 0.4em;
+    }
+}
+
+@media (min-width: 992px){
+    .alingIcons{
+        padding:1em;
+        margin-top:1.5em;
+        margin-left: 2em;
+    }
+    .formatSpan{
+        padding-left: 1.2em;
+        font-size: 20px;
+        font-family: 'Fascinate Inline', cursive;
+        font-weight: bolder;
+    }
+    .fa-female{
+        margin-left: 0.4em;
+    }
+
+    .fa, .fab, .fal, .far, .fas {
+        font-size: 45px;
+        color:#fc8692;
+    }
+}
+@media (min-width: 1280px) {
+    .alingIcons{
+        padding:1em;
+        margin-top:1.8em;
+        margin-left: 2em;
+    }
+    .formatSpan{
+        padding-left: 1.3em;
+        font-size: 15px;
+        font-family: 'Fascinate Inline', cursive;
+        font-weight: bolder;
+        color:white;
+        font-size:20px;
+    }
+    
+    .fa, .fab, .fal, .far, .fas {
+        text-align: center;
+        font-size: 35px;
+    }
+    .fa-female{
+        margin-left: 0.4em;
+    }
+}
