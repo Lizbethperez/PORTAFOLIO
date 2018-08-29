@@ -24,13 +24,20 @@ body{
     height: 100vh;
     opacity: 0.8; 
 }
+
+.addClickColorTab{
+    color: aqua;
+}
+#miImagenLogo{
+    -moz-transform: rotate(35deg);
+    -o-transform: rotate(35deg);
+    -webkit-transform: rotate(35deg);
+    transform: rotate(35deg);
+}
 .stroke {
     -webkit-text-fill-color: white;
     -webkit-text-stroke: 1px white;
     }
-nav-pills .nav-link.active, .nav-pills .show>.nav-link:hover{
-    color:purple;
-}
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
     color:#dce0e4;
     background-color: transparent;
@@ -39,8 +46,7 @@ nav-pills .nav-link.active, .nav-pills .show>.nav-link:hover{
 .format-name{
     font-family: 'Stint Ultra Expanded', cursive;
     color:white;
-    font-size: 85px;
-    margin-top: 2.8em;
+    margin-top: 1.4em;
     background-color: #9b8d8dd3;
 }
 .format-front{
@@ -80,7 +86,6 @@ nav-pills .nav-link.active, .nav-pills .show>.nav-link:hover{
     font-size: 40px;
     margin-top:1em;
     color:#30444c;
-
 }
 
 /*SECCION DE HABILIDADES*/
@@ -95,9 +100,54 @@ nav-pills .nav-link.active, .nav-pills .show>.nav-link:hover{
 .toolsFormat{
     height: 15vh;
 }
+.format-tools-tec{
+}
+.progress-bar{
+    background-color: #30444c;
+    font-size: 18px;
+  
+}
+
+/*SECCION DE PORTAFOLIO */
+.backgroundTap4{
+    background-color:#9eb99aa4;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+
+/*SECCION DE CONTACTO*/
+.backgroundTap5{
+    background-color:#dce0e49f;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+
+h1 span {
+    position:absolute;
+    right:0;
+    width:0;
+    background:  #9b8d8dd3;;
+    border-left: 1px solid #000;
+    animation: escribir 5s steps(30) infinite alternate;
+}
+
+@keyframes escribir {
+    from { width: 100% }
+    to { width:0 }
+}
+
 
 @media (min-width: 768px) {
-
+    .format-name{
+        font-size: 55px;
+        margin-top: 1.4em;
+    }
     .alingIcons{
         padding:1em;
         margin-top:1em;
@@ -142,6 +192,9 @@ nav-pills .nav-link.active, .nav-pills .show>.nav-link:hover{
     }
 }
 @media (min-width: 1280px) {
+    .format-name{
+        font-size: 85px;
+    }
     .alingIcons{
         padding:1em;
         margin-top:1.8em;
@@ -164,3 +217,96 @@ nav-pills .nav-link.active, .nav-pills .show>.nav-link:hover{
         margin-left: 0.4em;
     }
 }
+
+
+
+
+
+
+
+
+/*********************BOTONES DE CONTACTO******************/
+/*
+$radius: 75px;
+$color: #000;
+$bg: #fff;
+
+$colors: (
+  "mail": #0072C6,
+  "facebook": #3b5999,
+  "linkedin": #0077b5,
+  "github": #6e5494,
+  "codepen": #212121
+);
+
+body {
+  background-color: #ddd;
+  padding: 100px 20px 20px 20px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  &__button {
+    display: block;
+    width: $radius;
+    height: $radius;
+    border-radius: 100%;
+    background: $bg;
+    position: relative;
+    cursor: pointer;
+    margin: 5px;
+    text-align: center;
+
+    i {
+      display: inline-block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: $radius;
+      line-height: $radius;
+      width: $radius;
+      font-size: $radius / 2;
+      color: $color;
+      z-index: 2;
+      transition: 0.3s;
+    }
+
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      background: $color;
+      border-radius: 100%;
+      width: 0;
+      height: 0;
+      transition: 0.3s;
+      top: 0;
+      left: 50%;
+    }
+
+    &:hover i {
+      color: $bg;
+    }
+
+    &:hover:after {
+      width: $radius;
+      height: $radius;
+      margin-left: -1 * $radius / 2;
+    }
+  }
+}
+
+@each $name, $color in $colors {
+  .#{$name} {
+    i {
+      color: $color;
+    }
+    &:after {
+      background: $color;
+    }
+  }
+}
+*/

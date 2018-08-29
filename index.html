@@ -17,22 +17,24 @@
           <div class="row">
               <div class="col-lg-2 col-md-3">
                 <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                 <a class="nav-link active alingIcons animated flash infinite" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true"><i class="fas fa-home "></i></a>
-                 <span class="formatSpan">Home</span>
-                  <a class="nav-link alingIcons" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false"><i class="fas fa-female"></i></a>
-                 <span class="formatSpan">Sobre Mi</span>
-                  <a class="nav-link alingIcons" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false"><i class="fas fa-wrench"></i></a>
+                 <a class="nav-link active alingIcons animated flipInX" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true"><i class="fas fa-home "></i></a>
+                  <span class="formatSpan">Home</span>
+                  <a class="nav-link alingIcons animated flipInX" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false"><i class="fas fa-female"></i></a>
+                  <span class="formatSpan">Sobre Mi</span>
+                  <a class="nav-link alingIcons animated flipInX" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false"><i class="fas fa-wrench"></i></a>
                   <span class="formatSpan">Habilidades</span>
-                  <a class="nav-link alingIcons" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false"><i class="fas fa-briefcase"></i></a>
-                  <span class="formatSpan">Portafolio</span>
-                  <a class="nav-link alingIcons" id="v-pills-contact-tab" data-toggle="pill" href="#v-pills-contact" role="tab" aria-controls="v-pills-contact" aria-selected="false"><i class="fas fa-envelope"></i></a>
+                  <a class="nav-link alingIcons animated flipInX" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false"><i class="fas fa-briefcase"></i></a>
+                  <span class="formatSpan ">Portafolio</span>
+                  <a class="nav-link alingIcons animated flipInX" id="v-pills-contact-tab" data-toggle="pill" href="#v-pills-contact" role="tab" aria-controls="v-pills-contact" aria-selected="false"><i class="fas fa-envelope"></i></a>
                   <span class="formatSpan">Contacto</span>
                 </div>
               </div>
               <div class="col-lg-10 col-md-9" id="marginTab2">
                 <div class=" tab-content" id="v-pills-tabContent">
                   <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab"><br>
-                    <div class="row"><h1 class="col-12 text-center format-name">LIZBETH PEREZ</h1></div><br><br>
+                    <div class="row">
+                      <img class="col-5 offset-6 animated flash" id="miImagenLogo" src="assets/liz2.png" alt="">
+                      <h1 class="col-12 text-center format-name">LIZBETH PEREZ<span>&#160;</span></h1></div><br><br>
                       <div><h4 class="col-12 text-center format-front stroke" >FRONT END DEVELOPER</h4></div> 
                   </div>
                   <div class="tab-pane fade backgroundTap2" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
@@ -46,27 +48,76 @@
                       </div>  
                     </section>
                   </div>
-                  <div class="tab-pane fade backgroundTap3 " id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                  <div class="tab-pane fade backgroundTap3" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
                      <h2 class="col-10 text-center animated rotateInUpRight format-title-tabs">HABILIDADES</h2><br>
                      <div class="row">
-                        <img class="col-1 toolsFormat" src="assets/bootstrap logo.png" alt="bootstrap">
-                        <img class="col-1 toolsFormat" src="assets/firebase.png" alt="firebase">
-                        <img class="col-1 toolsFormat" src="assets/git.png" alt="git">
-                        <img class="col-1 toolsFormat rounded-circle" src="assets/github.jpg" alt="github">
-                        <img class="col-1 toolsFormat" src="assets/html.png" alt="html">
+                       <div class="col-5 format-tools-tec">
+                        <div class="row">
+                            <img class="col-4  toolsFormat" id="imageBlock" src="assets/js.png" alt="js">
+                            <img class="col-4 toolsFormat" src="assets/html.png" alt="html">
+                            <img class="col-4  toolsFormat" src="assets/css.jpg" alt="css">
+                        </div>
+                        <div class="row">
+                            <img class="col-2 offset-1 toolsFormat" src="assets/jquery.png" alt="jquery">
+                            <img class="col-3 toolsFormat" src="assets/node.png" alt="node">
+                            <img class="col-3 toolsFormat" src="assets/react.png" alt="react">
+                        </div>
+                        <div class="row">
+                            <img class="col-3  toolsFormat" src="assets/firebase.png" alt="firebase">
+                            <img class="col-2  offset-1 toolsFormat rounded-circle" src="assets/visual.png" alt="visual">
+                            <img class="col-2  offset-1 toolsFormat" src="assets/git.png" alt="git">
+                        </div>
+                        <div class="row">
+                            <img class="col-2  offset-2 toolsFormat" src="assets/bootstrap logo.png" alt="bootstrap"> 
+                            <img class="col-2   toolsFormat" src="assets/materialize.png" alt="materialize">
+                            <img class="col-2   toolsFormat rounded-circle" src="assets/github.jpg" alt="github">
+                        </div>
                     </div>
-                    <div class="row">
-                        <img class="col-1 toolsFormat" src="assets/jquery.png" alt="jquery">
-                        <img class="col-1 toolsFormat" src="assets/js.png" alt="js">
-                        <img class="col-1 toolsFormat" src="assets/node.png" alt="node">
-                        <img class="col-1 toolsFormat" src="assets/react.png" alt="react">
-                        <img class="col-1 toolsFormat rounded-circle" src="assets/visual.png" alt="visual">
-                        <img class="col-1 toolsFormat" src="assets/materialize.png" alt="materialize">
-                        <img class="col-1 toolsFormat" src="assets/css.jpg" alt="css">
-                     </div>
+                    <div class="col-5">
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                          aria-valuemax="100" style="width: 85%">Trabajo en Equipo</div>
+                      </div>
+                      <br>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                          aria-valuemax="100" style="width: 75%"> Autodidacta 75%</div>
+                      </div>
+                      <br>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                          aria-valuemax="100" style="width: 90%">Resolución de Problemas</div>
+                      </div>
+                      <br>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                          aria-valuemax="100" style="width: 70%">Rapido Aprendizaje</div>
+                      </div>
+                      <br>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                          aria-valuemax="100" style="width: 100%">Responsable</div>
+                      </div><br>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                          aria-valuemax="100" style="width: 80%">Adaptabilidad</div>
+                      </div>
+                    </div>
+                    </div>
                   </div>
-                  <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">YANINE</div>
-                  <div class="tab-pane fade" id="v-pills-contact" role="tabpanel" aria-labelledby="v-pills-contact-tab">liz</div>
+                  <div class="tab-pane fade backgroundTap4" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                    <h2 class="col-10 text-center animated rotateInUpRight format-title-tabs">PORTAFOLIO</h2><br>
+                  </div>
+                  <div class="tab-pane fade backgroundTap5" id="v-pills-contact" role="tabpanel" aria-labelledby="v-pills-contact-tab">
+                    <div class="social">
+                        <h2 class="col-10 text-center animated rotateInUpRight format-title-tabs">CONTACTO</h2><br>
+                      <a href="#" class="social__button mail"><i class="fa fa-envelope-o"></i></a>
+                      <a href="#" class="social__button facebook"><i class="fa fa-facebook"></i></a>
+                      <a href="#" class="social__button linkedin"><i class="fa fa-linkedin"></i></a>
+                      <a href="#" class="social__button github"><i class="fa fa-github"></i></a>
+                      <a href="#" class="social__button codepen"><i class="fa fa-codepen"></i></a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
