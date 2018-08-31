@@ -24,6 +24,20 @@ body{
     height: 100vh;
     opacity: 0.8; 
 }
+h1 span {
+    position:absolute;
+    right:0;
+    width:0;
+    background:  #9b8d8dd3;;
+    border-left: 1px solid #000;
+    animation: escribir 5s steps(30) infinite alternate;
+}
+
+@keyframes escribir {
+    from { width: 100% }
+    to { width:0 }
+}
+
 
 .addClickColorTab{
     color: aqua;
@@ -98,14 +112,8 @@ body{
     position: fixed;;
 }
 .toolsFormat{
-    height: 15vh;
-}
-.format-tools-tec{
-}
-.progress-bar{
-    background-color: #30444c;
-    font-size: 18px;
-  
+    height: 18vh;
+    padding-bottom: 1.8em;
 }
 
 /*SECCION DE PORTAFOLIO */
@@ -127,19 +135,13 @@ body{
     height: 100vh;
     position: fixed;
 }
-
-h1 span {
-    position:absolute;
-    right:0;
-    width:0;
-    background:  #9b8d8dd3;;
-    border-left: 1px solid #000;
-    animation: escribir 5s steps(30) infinite alternate;
+form{
+    font-size: 18px;
+    color: #30444c;
+    font-weight: bolder;
 }
-
-@keyframes escribir {
-    from { width: 100% }
-    to { width:0 }
+.btn-submit{
+    background-color:  #30444c;
 }
 
 
