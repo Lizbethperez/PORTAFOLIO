@@ -136,9 +136,72 @@ h1 span {
 .format-title-proyect{
   color:white;
   font-family: 'Monoton', cursive;
- 
+  font-size:30px;
 }
+div.images-background{
+    height: 32vh;
+    margin-bottom: 1em;
+    border-radius:10px;
+    box-shadow: 0px 0px 10px 10px #30444c;
+    padding-left: 0;
+}
+div#imagen1 {
+    background-size: cover;
+    background-image: url("../assets/demos/20180827_224525.gif");
+  }
+div#imagen {
+    background-size: cover;
+    background-image: url("../assets/demos/20180828_230405.gif");
+  }
+div#imagen2{
+    background-size: cover;
+    background-image: url("../assets/demos/20180827_224219.gif");
+  }
+  div#imagen3{
+    background-size: cover;
+    background-image: url("../assets/demos/20180828_231322.gif");
+  }
+  
+  div.info {
+    position:absolute;
+    overflow:hidden;
+    height: 32vh;
+    background-color: #30444c07;
+    opacity:0.5;
+    transition: opacity 0.3s;
+    padding-left: 0;
+    padding-right: 0;
+    color:white;
+    text-align: center;
+  }
+  
+  div#imagen:hover div.info,div#imagen1:hover div.info,div#imagen2:hover div.info,div#imagen3:hover div.info {
+      background-color:#30444cf6;
+      opacity:1;
+  }
+  
+  p.headline {
+    position: absolute;
+    margin-left: -220px;
+    font-size: 1.5rem;
+    transition:  0.3s;
+  }
+  
+  div#imagen:hover p.headline,div#imagen1:hover p.headline,div#imagen2:hover p.headline,div#imagen3:hover p.headline {
+    margin-left: 140px;
+  }
 
+  p.descripcion {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 220px;
+    transition: margin-top 0.4s;
+    font-size: 18px;
+  }
+  
+  div#imagen:hover p.descripcion, div#imagen1:hover p.descripcion,div#imagen2:hover p.descripcion,div#imagen3:hover p.descripcion {
+    margin-top: 40px;
+  }
 
 /*SECCION DE CONTACTO*/
 .backgroundTap5{
@@ -184,7 +247,7 @@ form{
     }
     .alingIcons{
         padding:1em;
-        margin-top:1em;
+        margin-top:0.7em;
         margin-left: 1.5em;
     }
     .formatSpan{
@@ -211,6 +274,9 @@ form{
     .dowload-cv{
         font-size: 25px;
     }
+    .format-title-proyect{
+        font-size:15px;
+      }
 }
 
 @media (min-width: 992px){
@@ -245,6 +311,9 @@ form{
     .dowload-cv{
         font-size: 35px;
     }
+    .format-title-proyect{
+        font-size:20px;
+      }
 }
 @media (min-width: 1280px) {
     .format-name{
@@ -252,7 +321,7 @@ form{
     }
     .alingIcons{
         padding:1em;
-        margin-top:1.8em;
+        margin-top:1em;
         margin-left: 2em;
     }
     .formatSpan{
@@ -271,5 +340,8 @@ form{
     .fa-female{
         margin-left: 0.4em;
     }
+    .format-title-proyect{
+        font-size:30px;
+      }
   
 }
