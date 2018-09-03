@@ -282,6 +282,13 @@ form{
         height: 15vh;
         padding-bottom: 1.5em;
     }
+    .backgroundTap5{
+        position: relative;
+        height: auto;
+    }
+    form{
+        margin-left:1.5em;
+    }
 }
 
 @media (min-width: 768px) {
@@ -346,7 +353,7 @@ form{
     }
 
     .fa, .fab, .fal, .far, .fas {
-        font-size: 30px;
+        font-size: 35px;
         color:#9eb99a;
     }
     .fotmat-p-AboutMe{
@@ -366,6 +373,9 @@ form{
       }
     form{
         font-size: 13px;
+    }
+    .tools-move-left {
+        margin-left: 4.5em;
     }
 }
 @media (min-width: 1280px) {
