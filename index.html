@@ -15,10 +15,19 @@
 </head>
 <body>
     <div class="background"></div>
+  <!--  <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-shrink" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+        <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbarResponsive" style="">
+      </div>
+    </nav> -->
           <div class="row">
-              <div class="col-lg-2 col-md-3">
-                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                 <a class="nav-link active alingIcons animated flipInX" id="v-pills-home-tab mt-3" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true"><i class="fas fa-home "></i></a>
+              <div class="col-lg-2 col-md-3" id="format-tab-central">
+                <div class="nav flex-column nav-pills " id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                 <a class="nav-link active alingIcons animated flipInX" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true"><i class="fas fa-home "></i></a>
                   <span class="formatSpan">Principal</span>
                   <a class="nav-link alingIcons animated flipInX" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false"><i class="fas fa-female"></i></a>
                   <span class="formatSpan">Sobre Mi</span>
@@ -30,47 +39,47 @@
                   <span class="formatSpan">Contacto</span>
                 </div>
               </div>
-              <div class="col-lg-10 col-md-9" id="marginTab2">
+              <div class="col-lg-10 col-md-9" id="marginTab2" data-spy="scroll">
                 <div class=" tab-content" id="v-pills-tabContent">
                   <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab"><br>
                     <div class="row">
-                      <img class="col-5 offset-6 animated flash" id="miImagenLogo" src="assets/liz2.png" alt="">
+                      <img class="col-5 offset-6 col-s-2 animated flash" id="miImagenLogo" src="assets/liz2.png" alt="">
                       <h1 class="col-12 text-center format-name">LIZBETH PEREZ<span>&#160;</span></h1></div><br><br>
                   </div>
                   <div class="tab-pane fade backgroundTap2" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-                      <div class="row"><h2 class="col-10 text-center animated rotateInUpRight format-title-tabs">SOBRE MI</h2></div><br>
+                      <div class="row"><h2 class="col-lg-10 col-md-10 text-center animated rotateInUpRight format-title-tabs">SOBRE MI</h2></div><br>
                       <div class="row">
-                        <p class="fotmat-p-AboutMe text-center col-5">
+                        <p class="fotmat-p-AboutMe text-center col-lg-5 col-md-5 col-sm-9">
                             Desarrolladora Front-End e Ingeniera Química con pasión por compartir mi conocimiento, el aprendizaje continuo y todo tipo de retos. Soy una mujer responsable, organizada y perseverante; 
                             me gusta aprender y descubrir nuevas tecnologías que enriquezcan mi desarrollo.
                             He trabajado como líder de varios proyectos lo que me ha ayudado a crecer profesionalmente en distintos ambientes y situaciones.
                             </p>
-                        <img class="col-4 rounded-circle animated slideInUp imagen" src="assets/lizjpg.jpg" alt="">
+                        <img class="col-lg-4 col-md-4 col-sm-3 rounded-circle animated slideInUp imagen" src="assets/lizjpg.jpg" alt="">
                       </div>  
                   </div>
                   <div class="tab-pane fade backgroundTap3" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-                     <h2 class="col-9 text-center animated rotateInUpRight format-title-tabs">Estas son las herramientas y tecnologías con las que he trabajado:</h2><br>
+                     <h2 class="col-lg-9 col-md-9 col-sm-9 text-center animated rotateInUpRight format-title-tabs">Estas son las herramientas y tecnologías con las que he trabajado:</h2><br>
                      <div class="row">
-                       <div class="col-8 offset-1 format-tools-tec">
+                       <div class="col-lg-8 col-md-8 offset-1 col-sm-8 format-tools-tec">
                         <div class="row"><br>
-                            <img class="col-4  toolsFormat animated flipInY  slower logo-hover" id="imageBlock" src="assets/js.png" alt="js">
-                            <img class="col-4 toolsFormat animated flipInY  slower delay-2s logo-hover" src="assets/html.png" alt="html">
-                            <img class="col-4  toolsFormat animated flipInY  slower logo-hover" src="assets/css.jpg" alt="css">
+                            <img class="col-lg-4 col-md-4 col-sm-3 toolsFormat animated flipInY  slower logo-hover" id="imageBlock" src="assets/js.png" alt="js">
+                            <img class="col-lg-4 col-md-4 col-sm-3  toolsFormat animated flipInY  slower delay-2s logo-hover" src="assets/html.png" alt="html">
+                            <img class="col-lg-4 col-md-4 col-sm-3  toolsFormat animated flipInY  slower logo-hover" src="assets/css.jpg" alt="css">
                         </div><br>
                         <div class="row move-left"><br>
-                            <img class="col-3  toolsFormat animated flipInY  slower delay-2s logo-hover" src="assets/jquery.png" alt="jquery">
-                            <img class="col-3 offset-1 toolsFormat animated flipInY  slower logo-hover" src="assets/node.png" alt="node">
-                            <img class="col-3 offset-1 toolsFormat animated flipInY  slower delay-3s logo-hover" src="assets/react.png" alt="react">
+                            <img class="col-lg-3 col-md-3 col-sm-3   toolsFormat  animated flipInY  slower delay-2s logo-hover" src="assets/jquery.png" alt="jquery">
+                            <img class="col-lg-3 col-md-3 col-sm-3   toolsFormat tools-move-left animated flipInY  slower logo-hover" src="assets/node.png" alt="node">
+                            <img class="col-lg-3 col-md-3 col-sm-3   toolsFormat tools-move-left animated flipInY  slower delay-3s logo-hover" src="assets/react.png" alt="react">
                         </div>
                         <div class="row move-left">
-                            <img class="col-3   toolsFormat animated flipInY  slower delay-2s logo-hover" src="assets/firebase.png" alt="firebase">
-                            <img class="col-3  offset-1 toolsFormat animated rounded-circle flipInY slower logo-hover" src="assets/visual.png" alt="visual">
-                            <img class="col-3  offset-1 toolsFormat animated flipInY  slower delay-3s logo-hover" src="assets/git.png" alt="git">
+                            <img class="col-lg-3 col-md-3 col-sm-3  toolsFormat animated flipInY  slower delay-2s logo-hover" src="assets/firebase.png" alt="firebase">
+                            <img class="col-lg-3 col-md-3 col-sm-3  toolsFormat  toolsFormat tools-move-left animated rounded-circle flipInY slower logo-hover" src="assets/visual.png" alt="visual">
+                            <img class="col-lg-3 col-md-3 col-sm-3  toolsFormat  tools-move-left animated flipInY  slower delay-3s logo-hover" src="assets/git.png" alt="git">
                         </div>
                         <div class="row move-left">
-                            <img class="col-3   toolsFormat animated flipInY  slower logo-hover" src="assets/materialize.png" alt="materialize">
-                            <img class="col-3  offset-1 toolsFormat animated mb-2 flipInY  slower delay-3s logo-hover" src="assets/bootstrap logo.png" alt="bootstrap"> 
-                            <img class="col-3  offset-1 toolsFormat animated rounded-circle flipInY  slower delay-2s logo-hover" src="assets/github.jpg" alt="github">
+                            <img class="col-lg-3 col-md-3 col-sm-3  toolsFormat animated flipInY  slower logo-hover" src="assets/materialize.png" alt="materialize">
+                            <img class="col-lg-3 col-md-3 col-sm-3  toolsFormat tools-move-left animated mb-2 flipInY  slower delay-3s logo-hover" src="assets/bootstrap logo.png" alt="bootstrap"> 
+                            <img class="col-lg-3 col-md-3 col-sm-3 toolsFormat tools-move-left animated rounded-circle flipInY  slower delay-2s logo-hover" src="assets/github.jpg" alt="github">
                         </div>
                     </div>
                     </div>
@@ -162,8 +171,8 @@
                               <a href="https://www.linkedin.com/in/lizbeth-perez/" ><img class="col-3 contactImg rounded-circle" src="assets/linkedin.png" alt="linkedin"></a>
                               <a href="https://github.com/Lizbethperez" ><img  class="col-3 contactImg rounded-circle" src="assets/github.svg" alt="github"></a>
                               <a href="https://www.facebook.com/liz.pv.7" ><img  class="col-3 contactImg rounded-circle" src="assets/facebook.svg" alt="github"></a>
-                          <div class="row">
-                              <a href="download/../assets/cv-lizbethPerez.pdf" download="cv-lizbethPerez"><img class="col-7 offset-1" src="assets/downloaad.gif" alt="download"><span class="dowload-cv">CV</span></a>
+                          <div class="row"><br><br>
+                              <a href="download/../assets/cv-lizbethPerez.pdf" download="cv-lizbethPerez"><img class="col-4 offset-3 animated rubberBand infinite" src="assets/descargar.png" alt="download"><span class="dowload-cv">CV</span></a>
                           </div>
                       </div>
                       </div>
