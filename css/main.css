@@ -82,8 +82,9 @@ h1 span {
 .format-title-tabs{
     font-family: 'Stint Ultra Expanded', cursive;
     color:white;
-    font-size: 40px;
+    font-size: 50px;
     margin-top:0.5em;
+    font-weight: bolder;
 }
 
 /*SECCION DE HABILIDADES*/
@@ -96,7 +97,7 @@ h1 span {
     position: fixed;;
 }
 .toolsFormat{
-    height: 18vh;
+    height: 20vh;
     padding-bottom: 1.8em;
 }
 .move-left{
@@ -123,7 +124,7 @@ h1 span {
 }
 .format-title-proyect{
   color:white;
-  font-family: 'Monoton', cursive;
+  font-family:'Stint Ultra Expanded', cursive;;
   font-size:30px;
 }
 div.images-background{
@@ -228,10 +229,17 @@ form{
 .btn-submit{
     background-color:  #30444c;
 }
-.contactImg:hover{
+.contactImg:hover,.slack-format:hover{
  background-color:#30444c;
  opacity: 0.5;
- box-shadow: 0px 0px 10px 10px #30444c;
+ box-shadow: 0px 0px 5px 5px #30444c;
+}
+.contactImg{
+   padding: 1.5em;
+   width:100px;
+}
+.slack-format{
+    width: 93px;
 }
 .dowload-cv{
     color:#30444c;
@@ -243,6 +251,10 @@ form{
 .logo-hover:hover{
     opacity: 0.5;
 }
+.card-header, .card-footer{
+    background-color:  #9eb99a9d;
+}
+
 
 
 @media (max-width: 540px) {
@@ -330,6 +342,25 @@ form{
       div#imagen:hover p.headline,div#imagen1:hover p.headline,div#imagen2:hover p.headline,div#imagen3:hover p.headline {
         margin-left: 80px;
       }
+      .contactImg, .slack-format{
+        width: 20%;
+     }
+     .contactImg{
+         padding:1em;
+     }
+    .card{
+        border:0;
+    }
+    .col{
+        padding:0;
+    }
+    .move-card{
+        margin-left: 0em;
+        margin-top:0em;
+    }
+    .contactImg1{
+        width:35%;
+    }
     
 }
 
@@ -379,6 +410,17 @@ form{
     #imagen1, #imagen3{
         margin-left: 25px;
       }
+      .move-card{
+        margin-left: 4em;
+        margin-top:1em;
+    }
+    .contactImg, .slack-format{
+        width: 60%;
+     }
+     .contactImg,.slack-format{
+        padding: 0.5em;
+        width:100px;
+     }
 }
 
 @media (min-width: 992px){
@@ -443,6 +485,10 @@ form{
       div#imagen:hover p.headline,div#imagen1:hover p.headline,div#imagen2:hover p.headline,div#imagen3:hover p.headline {
         margin-left: 80px;
       }
+      .move-card{
+        margin-left: 8em;
+        margin-top:1em;
+    }
 }
 @media (min-width: 1280px) {
     .format-name{
@@ -497,5 +543,8 @@ form{
       div#imagen:hover p.headline,div#imagen1:hover p.headline,div#imagen2:hover p.headline,div#imagen3:hover p.headline {
         margin-left: 140px;
       }
-  
+      .move-card{
+        margin-left: 10.5em;
+        margin-top:5em;
+    }
 }
