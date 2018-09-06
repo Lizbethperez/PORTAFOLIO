@@ -58,7 +58,6 @@ h1 span {
 
 /*SECCION SOBRE MI*/
 .fotmat-p-AboutMe{
-    font-size: 25px;
     color:#30444c;
     font-weight: bolder;
    }
@@ -104,7 +103,7 @@ h1 span {
     margin-left:1.2em;
 }
 
-/*SECCION DE PORTAFOLIO */
+/******************************************SECCION DE PORTAFOLIO **************************************8*/
 .backgroundTap4{
     background-color:#9eb99aa4;
     background-size: cover;
@@ -212,7 +211,7 @@ div#imagen2{
   }
 
 
-/*SECCION DE CONTACTO*/
+/************************************************SECCION DE CONTACTO**********************************/
 .backgroundTap5{
     background-color:#dce0e49f;
     background-size: cover;
@@ -237,9 +236,11 @@ form{
 .contactImg{
    padding: 1.5em;
    width:100px;
+   opacity:0.8;
 }
 .slack-format{
     width: 93px;
+    opacity:0.8;
 }
 .dowload-cv{
     color:#30444c;
@@ -254,10 +255,14 @@ form{
 .card-header, .card-footer{
     background-color:  #9eb99a9d;
 }
+.move-card{
+  opacity: 0.8;  
+}
 
 
+/************************************************ADAPTACION MOBILE**********************************/
 
-@media (max-width: 540px) {
+@media (max-width: 767px) {
     .flex-column{
     background-color:#5d5f70;
     height: 10vh;
@@ -332,8 +337,8 @@ form{
     }
     .link-format{
         font-size: 15px;
-        border-radius: 20px;
-        padding-left:1em;
+        border-radius: 18px;
+        padding:0.5em;
         font-weight: bolder;
     }
     .format-title-proyect{
@@ -363,7 +368,7 @@ form{
     }
     
 }
-
+/************************************************ADAPTACION TABLET**********************************/
 @media (min-width: 768px) {
     form{
         font-size: 15px;
@@ -422,6 +427,7 @@ form{
         width:100px;
      }
 }
+/************************************************ADAPTACION LAPTOP ESTANDAR**********************************/
 
 @media (min-width: 992px){
     .alingIcons{
@@ -468,6 +474,9 @@ form{
         margin-top: 180px;
         font-size: 13px;
       }
+      .fotmat-p-AboutMe{
+        font-size: 23px;
+    }
     .techology{
         font-size:15px;
         text-shadow: -1px 0 black, 0 1px black,
@@ -489,7 +498,9 @@ form{
         margin-left: 8em;
         margin-top:1em;
     }
+
 }
+/************************************************ADAPTACION LAPTOP MAYORES**********************************/
 @media (min-width: 1280px) {
     .format-name{
         font-size: 85px;
@@ -516,7 +527,7 @@ form{
         margin-left: 0.4em;
     }
     .format-title-proyect{
-        font-size:30px;
+        font-size:35px;
       }
       form{
         font-size: 18px;
@@ -537,6 +548,9 @@ form{
     .link-format{
         font-size: 18px;
     }
+    .fotmat-p-AboutMe{
+        font-size: 27px;
+    }
     .format-title-proyect{
         font-size:30px;
       }
@@ -546,5 +560,7 @@ form{
       .move-card{
         margin-left: 10.5em;
         margin-top:5em;
+      
+       
     }
 }
